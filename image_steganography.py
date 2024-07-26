@@ -74,7 +74,7 @@ verification_key = int(input("Enter the verification key code: "))
 
 # Check if the verification key is correct
 if verification_key != key:
-    print("Verification key is incorrect. Decryption is not allowed.")
+    print("Verification key is incorrect, Decryption is not allowed.")
 else:
     # Decrypt the text using Caesar cipher
     decrypted_text = caesar_cipher_decrypt(retrieved_text, key)
